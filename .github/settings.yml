@@ -6,7 +6,7 @@
 repositories:
   # If the repository is not listed in the settings.yml, it will be created and synced.
   # See https://developer.github.com/v3/repos/#edit for all available settings for a repository
-  - name: new-repo
+  - name: admin
 
     # The Organization the repo belongs to
     org: github
@@ -25,7 +25,7 @@ repositories:
     topics: github, probot, new-topic, another-topic, topic-12
 
     # Either `true` to make the repository private, or `false` to make it public.
-    private: false
+    private: true
 
     # Either `true` to enable issues for this repository, `false` to disable them.
     has_issues: true
