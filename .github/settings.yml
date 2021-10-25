@@ -6,7 +6,7 @@
 repositories:
   # If the repository is not listed in the settings.yml, it will be created and synced.
   # See https://developer.github.com/v3/repos/#edit for all available settings for a repository
-  - name: admin
+  - name: complex
 
     # The Organization the repo belongs to
     org: github
